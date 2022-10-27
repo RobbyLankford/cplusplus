@@ -1,0 +1,10 @@
+1. Install homebrew: https://brew.sh/
+
+2. From terminal, run: `brew install gcc`
+
+3. Run commands shown in the terminal to add lines to .zprofile
+
+4. Close and reopen terminal, run the following (assuming downloaded gcc-12):
+    cd /opt/homebrew/bin
+    ln -s gcc-12 gcc
+    ln -s g++-12 g++
