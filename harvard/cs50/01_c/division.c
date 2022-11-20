@@ -1,8 +1,8 @@
 #include ".vscode/cs50.h"
 #include <stdio.h>
 
-int main(void) {
-
+int main(void) 
+{
     // Get input from users
     int x = get_int("x: ");
     int y = get_int("y: ");

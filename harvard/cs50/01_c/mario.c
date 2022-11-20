@@ -4,7 +4,8 @@
 int get_height(void);
 int get_width(void);
 
-int main(void) {
+int main(void) 
+{
     // Get positive integer height from user
     int height = get_height();
 
@@ -12,15 +13,18 @@ int main(void) {
     int width = get_width();
 
     // Build blocks based on height and width
-    for (int i = 0; i < height; i++) {
-        for (int j = 0; j < width; j++) {
+    for (int i = 0; i < height; i++) 
+    {
+        for (int j = 0; j < width; j++) 
+        {
             printf("#");
         }
         printf("\n");
     }
 }
 
-int get_height(void) {
+int get_height(void) 
+{
     int n;
     do 
     {
@@ -30,7 +34,8 @@ int get_height(void) {
     return n;
 }
 
-int get_width(void) {
+int get_width(void) 
+{
     int n;
     do 
     {

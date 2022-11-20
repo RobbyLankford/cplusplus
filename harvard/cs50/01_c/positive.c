@@ -3,12 +3,14 @@
 
 int get_positive_int(void);
 
-int main(void) {
+int main(void) 
+{
     int i = get_positive_int();
     printf("%i\n", i);
 }
 
-int get_positive_int(void) {
+int get_positive_int(void) 
+{
     int n;
     do 
     {
