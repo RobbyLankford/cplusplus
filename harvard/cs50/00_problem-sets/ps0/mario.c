@@ -7,7 +7,7 @@ int get_height(void);
 void print_space(int n);
 void print_hash(int n);
 
-int main(void) 
+int main(void)
 {
     int height = get_height();
 
@@ -19,21 +19,21 @@ int main(void)
         print_hash(i);
         printf("\n");
     }
-    
+
     return 0;
 }
 
 // Get a height value from user between 1 and 8
-int get_height(void) 
+int get_height(void)
 {
     int n;
-    
-    do 
+
+    do
     {
         n = get_int("Height: ");
     }
-    while(n < 1 || n > 8);
-    
+    while (n < 1 || n > 8);
+
     return n;
 }
 
