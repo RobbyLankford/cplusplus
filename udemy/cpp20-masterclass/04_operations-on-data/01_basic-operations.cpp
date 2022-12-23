@@ -44,7 +44,6 @@ int main()
 
     std::cout << "modulus1: " << modulus1 << std::endl;
     std::cout << "modulus2: " << modulus2 << std::endl;
-    std::cout << "\n-------\n" << std::endl;
 
     return 0;
 }
