@@ -1,46 +1,36 @@
+// Prints an n-by-n grid of bricks, re-prompting user for positive integer
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 
-int get_height(void);
-int get_width(void);
+int get_size(void);
+void print_grid(int n);
 
-int main(void) 
+int main(void)
 {
-    // Get positive integer height from user
-    int height = get_height();
+    int n = get_size();
+    print_grid(n);
+}
 
-    // Get positive integer width from user
-    int width = get_width();
-
-    // Build blocks based on height and width
-    for (int i = 0; i < height; i++) 
+int get_size(void)
+{
+    int n;
+    do
     {
-        for (int j = 0; j < width; j++) 
+        n = get_int("Size: ");
+    } while (n < 1);
+    
+    return n;
+}
+
+void print_grid(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
         {
             printf("#");
         }
         printf("\n");
     }
-}
-
-int get_height(void) 
-{
-    int n;
-    do 
-    {
-        n = get_int("Height: ");
-    }
-    while(n < 1);
-    return n;
-}
-
-int get_width(void) 
-{
-    int n;
-    do 
-    {
-        n = get_int("Width: ");
-    }
-    while(n < 1);
-    return n;
 }

@@ -1,3 +1,5 @@
+// Division with longs, demonstrating floating-point imprecision
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 

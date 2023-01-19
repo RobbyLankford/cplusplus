@@ -1,3 +1,5 @@
+// Division with ints, demonstrating type casting
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 

@@ -1,3 +1,5 @@
+// Continue to re-prompt user for a positive integer
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 

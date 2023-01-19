@@ -1,3 +1,5 @@
+// User get_string, prinf, and a placeholder
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 

@@ -1,3 +1,5 @@
+// Addition with int, allows for overflow
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 
