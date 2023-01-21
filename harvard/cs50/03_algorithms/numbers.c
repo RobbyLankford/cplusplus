@@ -1,13 +1,18 @@
+// Implements linear search for integers
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 
 int main(void)
 {
-    int numbers[] = {4, 6, 8, 2, 7, 5, 0};
+    // An array of integers
+    int numbers[] = {20, 500, 10, 5, 100, 1, 50};
 
+    // Search for number
+    int n = get_int("Number: ");
     for (int i = 0; i < 7; i++)
     {
-        if (numbers[i] == 7)
+        if (numbers[i] == n)
         {
             printf("Found\n");
             return 0;

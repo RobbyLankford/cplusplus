@@ -1,3 +1,5 @@
+// Implements a phone book with structs
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 #include <string.h>

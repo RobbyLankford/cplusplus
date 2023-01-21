@@ -4,11 +4,14 @@
 
 int main(void)
 {
+    // An array of strings
     string names[] = {"Bill", "Charlie", "Fred", "George", "Ginny", "Percy", "Ron"};
 
+    // Search for string
+    string s = get_string("String: ");
     for (int i = 0; i < 7; i++)
     {
-        if(strcmp(names[i], "Ron") == 0)
+        if(strcmp(names[i], s) == 0)
         {
             printf("Found\n");
             return 0;
