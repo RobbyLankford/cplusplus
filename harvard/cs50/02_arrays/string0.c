@@ -1,3 +1,5 @@
+// Prints string char by char using strlen
+
 #include ".vscode/cs50.h"
 #include <stdio.h>
 #include <string.h>
