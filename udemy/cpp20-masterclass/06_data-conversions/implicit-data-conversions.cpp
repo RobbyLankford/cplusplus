@@ -27,7 +27,7 @@ int main()
     int x { 0 };
     double y { 45.44 };
 
-    // Variable y will be converted to an int (decimals will be lost)
+    // Value of y will be converted to an int (decimals will be lost)
     x = y;
 
     std::cout << "The value of x is: " << x << std::endl;
