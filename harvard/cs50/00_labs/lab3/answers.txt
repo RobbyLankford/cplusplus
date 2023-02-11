@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It records the fastest time on an already sorted list, but the worst times elsewhere.
+
+sort2 uses: Merge Sort
+
+How do you know?: It consistently records similar quick times regardless of the order of the input.
+
+sort3 uses: Selection Sort
+
+How do you know?: It consistently records similar times regardless of the order of the input, but slower than sort2.

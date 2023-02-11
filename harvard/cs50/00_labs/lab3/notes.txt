@@ -1,0 +1,49 @@
+Selection Sort
+- Upper: n^2
+- Lower: n^2
+
+Bubble Sort
+- Upper: n^2
+- Lower: n
+
+Merge Sort
+- Upper: n log(n)
+- Lower: n log(n)
+
+
+Upper Bounds
+- Merge Sort < Selection Sort = Bubble Sort
+
+Lower Bounds
+- Bubble Sort < Merge Sort < Selection Sort
+
+
+To Tell Difference:
+- Bubble sort should be fastest on an already sorted list
+- Selection and Merge sort should take the same amount of time regardless of list order
+    - Merge sort should be faster than Selection sort
+- Merge sort should be faster than Selection and Bubble sort on an unsorted list
+
+
+Sorting Times
+- sorted50000.txt
+    - sort1: 0.449s
+    - sort2: 0.388s
+    - sort3: 3.102s
+    - Hypothesis: sort2 is bubble sort?
+    - Hypothesis: sort3 is selection sort?
+
+- reversed50000.txt
+    - sort1: 5.495s
+    - sort2: 0.385s
+    - sort3: 3.271s
+    - Hypothesis: sort2 is merge sort?
+    - Hypothesis: sort3 is selection sort?
+
+- random50000.txt
+    - sort1: 7.235s
+    - sort2: 0.348s
+    - sort3: 3.002s
+    - Hypothesis: sort1 is bubble sort
+    - Hypothesis: sort2 is merge sort
+    - Hypothesis: sort3 is selection sort
