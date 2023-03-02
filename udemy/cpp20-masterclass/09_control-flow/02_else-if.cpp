@@ -18,7 +18,7 @@ int main()
     }
     else if (tool == Marker)
     {
-        std::cout << "Active tool is Maker" << std::endl;
+        std::cout << "Active tool is Marker" << std::endl;
     }
     else if (tool == Eraser)
     {
