@@ -6,7 +6,7 @@
 
 "This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally."
 
-Specifically, this repository holds weeks 1 - 5, which focus in C.
+Specifically, this repository holds weeks 1 - 5, which focus on C.
 
 ## Schedule
 
