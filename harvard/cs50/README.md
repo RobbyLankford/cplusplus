@@ -12,7 +12,7 @@ Specifically, this repository holds weeks 1 - 5, which focus on C.
 
 | Lecture | Topic(s)        | Lecture | Practice Problems | Lab | Problem Set |
 |:-------:|:---------------:|:-------:|:-----------------:|:---:|:-----------:|
-| 01      | C               | X       | X                 |     | X           |
+| 01      | C               | X       | X                 | X   | X           |
 | 02      | Arrays          | X       | X                 | X   | X           |
 | 03      | Algorithms      | X       | X                 | X   | X           |
 | 04      | Memory          | X       | X                 | X   |             |
