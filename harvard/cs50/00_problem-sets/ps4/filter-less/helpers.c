@@ -124,7 +124,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
     return;
 }
 
-
+// Helper: get min integer
 int get_min(int x, int y)
 {
     if (x > y)
@@ -137,6 +137,7 @@ int get_min(int x, int y)
     }
 }
 
+// Helper: get max integer
 int get_max(int x, int y)
 {
     if (x > y)
