@@ -16,4 +16,4 @@ Specifically, this repository holds weeks 1 - 5, which focus on C.
 | 02      | Arrays          | X       | X                 | X   | X           |
 | 03      | Algorithms      | X       | X                 | X   | X           |
 | 04      | Memory          | X       | X                 | X   | X           |
-| 05      | Data Structures | X       |                   |     |             |
+| 05      | Data Structures | X       | X                 |     |             |
