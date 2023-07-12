@@ -19,4 +19,5 @@
 | 11      | Arrays                                 | X        |
 | 12      | Pointers                               | X        |
 | 13      | References                             | X        |
-| 14      | Character Manipulation and Strings     |          |
+| 14      | Character Manipulation and Strings     | X        |
+| 15      | Functions                              |          |
