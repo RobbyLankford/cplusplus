@@ -18,7 +18,7 @@ typedef struct node
 node;
 
 // Number of buckets in hash table
-const unsigned int N = 26;
+const unsigned int N = 17576;
 
 // Hash table
 node *table[N];
@@ -54,8 +54,34 @@ bool check(const char *word)
 // Hashes word to a number
 unsigned int hash(const char *word)
 {
-    // TODO: Improve this hash function
-    return toupper(word[0]) - 'A';
+    // Hash using the first three letters of a word
+
+    // If word is only one letter long, use the first letter for the second and third letters
+    char c1 = toupper(word[0]);
+    char c2 = c1;
+    char c3 = c1;
+
+    // If word is only two letters long, use the second letter for the third letter
+    if (strlen(word) == 2)
+    {
+        c2 = toupper(word[1]);
+        c3 = c2;
+    }
+
+    // If word is greater than two letters long, can use the first three letters with no issue
+    if (strlen(word) > 2)
+    {
+        c2 = toupper(word[1]);
+        c3 = toupper(word[2]);
+    }
+
+    // Convert character into A = 0, B = 1, etc.
+    int idx1 = c1 - 'A';
+    int idx2 = c2 - 'A';
+    int idx3 = c3 - 'A';
+
+    // Implement hash to where AAA = 0, AAB = 1, ..., BAA = 676, ..., ZZA = 17,550, ..., ZZZ = 17,575
+    return (26 * 26 * idx1) + (26 * idx2) + idx3;
 }
 
 // Loads dictionary into memory, returning true if successful, else false
@@ -64,7 +90,7 @@ bool load(const char *dictionary)
     // Open File
     FILE *infile = fopen(dictionary, "r");
 
-    if (!infile)
+    if (infile == NULL)
     {
         return false;
     }
@@ -77,7 +103,7 @@ bool load(const char *dictionary)
         // Create a node to hold each word
         node *temp_node = malloc(sizeof(node));
 
-        if (!temp_node)
+        if (temp_node == NULL)
         {
             return false;
         }
