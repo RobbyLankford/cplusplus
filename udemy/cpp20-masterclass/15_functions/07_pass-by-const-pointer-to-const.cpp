@@ -29,4 +29,6 @@ void say_age(const int *const age)
     std::cout << "Hello! You are " << *age << " years old." << std::endl;
 
     //age = &some_var; // Will give an error, cannot change where pointer is pointing
+
+    return;
 }
