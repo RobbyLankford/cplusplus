@@ -7,7 +7,7 @@
 */
 
 void compute(int age = 27, double weight = 72.4, double distance = 12.5);
-void greet_teacher(std::string_view name = "Teacher", int homeworks = 12, int exams = 4, 
+void greet_teacheœr(std::string_view name = "Teacher", int homeworks = 12, int exams = 4, 
                    double pass_rate = 0.5, std::string_view dep = "Computer Science");
 
 int main()
