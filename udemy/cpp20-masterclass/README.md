@@ -22,4 +22,4 @@
 | 14      | Character Manipulation and Strings     | X        |
 | 15      | Functions                              | X        |
 | 16      | Enums and Type Aliases                 | X        |
-| 17      | Arguments to Main                      |          |
+| 17      | Arguments to Main                      | X        |
