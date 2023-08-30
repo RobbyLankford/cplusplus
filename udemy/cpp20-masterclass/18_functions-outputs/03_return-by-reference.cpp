@@ -1,9 +1,9 @@
 #include <iostream>
 
 /*
-    Returning by reference will be return a reference to the variable in question.
+    Returning by reference will return a reference to the variable in question.
     This SHOULD be a global variable or a variable defined in main.
-    DO NOT create a variable in the function and return a reference to it (it will not exist so the memory may be allocated elsewhere)
+    DO NOT create a variable in the function and return a reference to it (it will not exist so the memory may be allocated elsewhere).
 */
 
 // Will return a reference to what was passed in as a or b
@@ -19,12 +19,27 @@ int &max_return_reference(int &a, int &b)
     }
 }
 
-// Will return a reference to no-longer-existing result (compiler allows this, but will likely crash system)
+// The compiler will allow these next two functions, but using them may crash the system
+
+// Will return a reference to no-longer-existing result
 int &sum(int &a, int &b)
 {
     int result = a + b;
 
     return result;
+}
+
+// Will return a reference to a or b, which is only defined inside the function (since passed by value)
+int &max_input_by_value(int a, int b)
+{
+    if (a > b)
+    {
+        return a;
+    }
+    else
+    {
+        return b;
+    }
 }
 
 int main()
