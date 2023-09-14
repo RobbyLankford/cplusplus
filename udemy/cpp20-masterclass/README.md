@@ -23,4 +23,4 @@
 | 15      | Functions                              | X        |
 | 16      | Enums and Type Aliases                 | X        |
 | 17      | Arguments to Main                      | X        |
-| 18      | Function Outputs                       |          |
+| 18      | Function Outputs                       | X        |
