@@ -25,3 +25,4 @@
 | 17      | Arguments to Main                      | X        |
 | 18      | Function Outputs                       | X        |
 | 19      | Function Overloading                   | X        |
+| 20      | Lambda Functions                       |          |
