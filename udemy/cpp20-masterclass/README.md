@@ -26,4 +26,5 @@
 | 18      | Function Outputs                       | X        |
 | 19      | Function Overloading                   | X        |
 | 20      | Lambda Functions                       | X        |
-| 21      | Miscellaneous Function Topcs           |          |
+| 21      | Miscellaneous Function Topcs           | X        |
+| 22      | Function Templates                     |          |
