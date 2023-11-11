@@ -5,7 +5,7 @@
 #define MAXOP   100     /* max size of operand or operator */
 #define NUMBER  '0'     /* signal that a number was found */
 #define MAXVAL  100     /* maximum depth of val stack */
-#define BUFFSIZE 100
+#define BUFSIZE 100
 
 int getop(char[]);
 void push(double);
@@ -15,7 +15,7 @@ void ungetch(int);
 
 int sp = 0;             /* next free stack position */
 double val[MAXVAL];     /* value stack */
-char buf[BUFFSIZE];     /* buffer for ungetch */
+char buf[BUFSIZE];     /* buffer for ungetch */
 int bufp = 0;           /* next free position in buf */
 
 /* reverse Polish calculator */
@@ -149,7 +149,7 @@ int getch(void) /* get a (possibly pushed back) character */
 
 void ungetch(int c) /* push character back on input */
 {
-    if (bufp >= BUFFSIZE)
+    if (bufp >= BUFSIZE)
     {
         printf("ungetch: too many characters\n");
     }
