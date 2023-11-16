@@ -28,4 +28,5 @@
 | 20      | Lambda Functions                       | X        |
 | 21      | Miscellaneous Function Topcs           | X        |
 | 22      | Function Templates                     | X        |
-| 23      | C++ 20 Concepts                        |          |
+| 23      | C++ 20 Concepts                        | X        |
+| 24      | Classes                                |          |
