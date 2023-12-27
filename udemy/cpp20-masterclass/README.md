@@ -30,4 +30,5 @@
 | 22      | Function Templates                     | X        |
 | 23      | C++ 20 Concepts                        | X        |
 | 24      | Classes                                | X        |
-| 25      | Classes, Objects, and const            |          |
+| 25      | Classes, Objects, and const            | X        |
+| 26      | Constructors and Initialization        |          |
