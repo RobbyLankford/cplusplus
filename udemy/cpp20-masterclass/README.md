@@ -31,4 +31,5 @@
 | 23      | C++ 20 Concepts                        | X        |
 | 24      | Classes                                | X        |
 | 25      | Classes, Objects, and const            | X        |
-| 26      | Constructors and Initialization        |          |
+| 26      | Constructors and Initialization        | X        |
+| 27      | Friends                                |          |
