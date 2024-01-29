@@ -32,4 +32,5 @@
 | 24      | Classes                                | X        |
 | 25      | Classes, Objects, and const            | X        |
 | 26      | Constructors and Initialization        | X        |
-| 27      | Friends                                |          |
+| 27      | Friends                                | X        |
+| 28      | Static Members                         |          |
