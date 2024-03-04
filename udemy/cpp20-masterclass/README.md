@@ -35,4 +35,5 @@
 | 27      | Friends                                | X        |
 | 28      | Static Members                         | X        |
 | 29      | Namespaces                             | X        |
-| 30      | Programs With Multiple Files           |          |
+| 30      | Programs With Multiple Files           | X        |
+| 31      | Smart Pointers                         |          |
