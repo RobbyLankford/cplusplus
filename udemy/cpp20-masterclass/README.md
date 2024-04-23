@@ -37,4 +37,5 @@
 | 29      | Namespaces                             | X        |
 | 30      | Programs With Multiple Files           | X        |
 | 31      | Smart Pointers                         | X        |
-| 32      | Operator Overloading                   |          |
+| 32      | Operator Overloading                   | X        |
+| 33      | Logical Operators and C++ 20           |          |
