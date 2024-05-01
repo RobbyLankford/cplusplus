@@ -12,13 +12,13 @@ int main()
     std::string m2 {"World"};
 
     // Built-in .compare does three-way compairson
-    auto result = m1.compare(m2);
+    auto result1 = m1.compare(m2);
 
-    if (result > 0)
+    if (result1 > 0)
     {
         std::cout << "m1 > m2" << std::endl;
     }
-    else if (result == 0)
+    else if (result1 == 0)
     {
         std::cout << "m1 == m2" << std::endl;
     }
@@ -33,7 +33,7 @@ int main()
     int n1 {5};
     int n2 {5};
 
-    auto result = (n1 <=> n2);
+    auto result2 = (n1 <=> n2);
 
     std::cout << std::boolalpha;
 
