@@ -7,3 +7,4 @@ This repository holds the example C programs from "C Programming: A Modern Appro
 | Chapter | Title          |
 |:-------:|:--------------:|
 | 1       | Introducting C |
+| 2       | C Fundamentals |
