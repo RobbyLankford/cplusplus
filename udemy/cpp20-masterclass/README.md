@@ -38,4 +38,5 @@
 | 30      | Programs With Multiple Files           | X        |
 | 31      | Smart Pointers                         | X        |
 | 32      | Operator Overloading                   | X        |
-| 33      | Logical Operators and C++ 20           |          |
+| 33      | Logical Operators and C++ 20           | X        |
+| 34      | Inheritance                            |          |
