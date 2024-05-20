@@ -4,7 +4,8 @@ This repository holds the example C programs from "C Programming: A Modern Appro
 
 [More Information](http://knking.com/books/c2/index.html)
 
-| Chapter | Title          |
-|:-------:|:--------------:|
-| 1       | Introducting C |
-| 2       | C Fundamentals |
+| Chapter | Title                  |
+|:-------:|:----------------------:|
+| 1       | Introducting C         |
+| 2       | C Fundamentals         |
+| 3       | Formatted Input/Output |
