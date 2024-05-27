@@ -9,3 +9,4 @@ This repository holds the example C programs from "C Programming: A Modern Appro
 | 1       | Introducting C         |
 | 2       | C Fundamentals         |
 | 3       | Formatted Input/Output |
+| 4       | Expressions            |
