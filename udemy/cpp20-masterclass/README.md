@@ -39,4 +39,5 @@
 | 31      | Smart Pointers                         | X        |
 | 32      | Operator Overloading                   | X        |
 | 33      | Logical Operators and C++ 20           | X        |
-| 34      | Inheritance                            |          |
+| 34      | Inheritance                            | X        |
+| 35      | Polymorphism                           |          |
