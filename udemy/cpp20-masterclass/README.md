@@ -41,4 +41,5 @@
 | 33      | Logical Operators and C++ 20           | X        |
 | 34      | Inheritance                            | X        |
 | 35      | Polymorphism                           | X        |
-| 36      | Exception Handling                     |          |
+| 36      | Exception Handling                     | X        |
+| 37      | BoxContainer Class                     |          |
