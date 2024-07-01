@@ -12,3 +12,4 @@ This repository holds the example C programs from "C Programming: A Modern Appro
 | 4       | Expressions            |
 | 5       | Selection Statements   |
 | 6       | Loops                  |
+| 7       | Basic Types            |
