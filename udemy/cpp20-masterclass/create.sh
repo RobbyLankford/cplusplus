@@ -15,6 +15,7 @@ cat > $path/main.cpp << EOL
 int main()
 {
 
+
     return 0;
 }
 EOL

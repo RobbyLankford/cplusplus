@@ -15,6 +15,7 @@ cat > $path/main.c << EOL
 int main(void)
 {
 
+
     return 0;
 }
 EOL
