@@ -43,4 +43,4 @@
 | 35      | Polymorphism                           | X        |
 | 36      | Exception Handling                     | X        |
 | 37      | BoxContainer Class                     | X        |
-| 38      | Class Templates                        |          |
+| 38      | Class Templates                        | X        |
