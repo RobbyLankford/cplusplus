@@ -1,4 +1,4 @@
-/* Tests whether a number is primt */
+/* Tests whether a number is prime */
 
 #include <stdio.h>
 #include <stdbool.h>
