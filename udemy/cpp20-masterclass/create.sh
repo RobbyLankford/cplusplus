@@ -23,7 +23,7 @@ EOL
 # create build script
 cat > $path/build.sh << EOL
 mkdir -p build
-g++ -o build/main main.cpp
+g++ -std=c++20 -o build/main main.cpp
 build/main
 EOL
 
