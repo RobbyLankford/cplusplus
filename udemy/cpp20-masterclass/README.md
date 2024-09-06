@@ -45,4 +45,4 @@
 |   37    |           BoxContainer Class           |    X     |
 |   38    |            Class Templates             |    X     |
 |   39    |             Move Semantics             |    X     |
-|   40    |        Function Like Semantics         |          |
+|   40    |        Function Like Semantics         |    X     |
