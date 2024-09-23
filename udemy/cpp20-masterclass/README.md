@@ -46,4 +46,4 @@
 |   38    |            Class Templates             |    X     |
 |   39    |             Move Semantics             |    X     |
 |   40    |        Function Like Semantics         |    X     |
-|   41    |     STL, Containers, and Iterators     |          |
+|   41    |     STL, Containers, and Iterators     |    X     |
