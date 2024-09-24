@@ -47,3 +47,4 @@
 |   39    |             Move Semantics             |    X     |
 |   40    |        Function Like Semantics         |    X     |
 |   41    |     STL, Containers, and Iterators     |    X     |
+|   42    |      Zooming in on STL Containers      |          |
