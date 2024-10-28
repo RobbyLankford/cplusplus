@@ -48,4 +48,5 @@
 |   40    |        Function Like Semantics         |    X     |
 |   41    |     STL, Containers, and Iterators     |    X     |
 |   42    |      Zooming in on STL Containers      |    X     |
-|   43    |             STL Algorithms             |          |
+|   43    |             STL Algorithms             |    X     |
+|   44    |      Ranges and Range Algorithms       |          |
