@@ -49,4 +49,4 @@
 |   41    |     STL, Containers, and Iterators     |    X     |
 |   42    |      Zooming in on STL Containers      |    X     |
 |   43    |             STL Algorithms             |    X     |
-|   44    |      Ranges and Range Algorithms       |          |
+|   44    |      Ranges and Range Algorithms       |    X     |
