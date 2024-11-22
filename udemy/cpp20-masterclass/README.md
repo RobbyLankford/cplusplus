@@ -50,4 +50,5 @@
 |   42    |      Zooming in on STL Containers      |    X     |
 |   43    |             STL Algorithms             |    X     |
 |   44    |      Ranges and Range Algorithms       |    X     |
-|   45    |       Building Custom Iterators        |          |
+|   45    |       Building Custom Iterators        |    X     |
+|   46    |           C++ 20 Coroutines            |          |
