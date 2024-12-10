@@ -1,3 +1,5 @@
 *.dSYM
 *.dSYM/
 build/
+*.gcm
+*.o
