@@ -52,3 +52,4 @@
 |   44    |      Ranges and Range Algorithms       |    X     |
 |   45    |       Building Custom Iterators        |    X     |
 |   46    |           C++ 20 Coroutines            |    X     |
+|   47    |             C++ 20 Modules             |          |
